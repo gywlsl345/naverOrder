@@ -18,3 +18,9 @@
         display: none;     //크롬
     }   //mixin으로 사용해도 가능
 }
+
+body.scroll-off {
+    overflow: hidden;
+    -ms-touch-action: none;
+    touch-action: none;
+}
